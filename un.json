@@ -1,5 +1,12 @@
 {
-  "url":"https://f-droid.org/repo/org.nonononoki.hendroid_141.apk",
-  "versionCode":4,
-  "updateMessage":"1. Android 8.0\n2.  Android 9.0\n3. nononop"
+  "latestVersion": "3.2.2",
+  "latestVersionCode": "13",
+  "url": "https://f-droid.org/repo/org.nonononoki.hendroid_141.apk",
+
+ 
+  "releaseNotes": [
+    "- First evolution kjhkjhjhkjhkjhgkhjhjhhkj",
+    "- Second evolution",
+    "- Bug fixes"
+  ]
 }

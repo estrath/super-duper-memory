@@ -1,0 +1,57 @@
+<div class="anime_video_body" style="padding: 0 20px 20px 20px;">
+                         <ul id="episode_page">
+                                                <li>
+                                <a href="#" class="active" ep_start="0" ep_end="9">0-9</a>
+                            </li>
+                                    </ul>
+                <div class="clr"></div>
+                <div id="load_ep"><ul id="episode_related"><li><a href=" /arte-episode-9" class="">
+				<div class="name"><span>EP</span> 9</div>
+                <div class="vien"></div>
+                <div class="cate">SUB</div>
+              </a></li><li><a href=" /arte-episode-8" class="">
+				<div class="name"><span>EP</span> 8</div>
+                <div class="vien"></div>
+                <div class="cate">SUB</div>
+              </a></li><li><a href=" /arte-episode-7" class="">
+				<div class="name"><span>EP</span> 7</div>
+                <div class="vien"></div>
+                <div class="cate">SUB</div>
+              </a></li><li><a href=" /arte-episode-6" class="">
+				<div class="name"><span>EP</span> 6</div>
+                <div class="vien"></div>
+                <div class="cate">SUB</div>
+              </a></li><li><a href=" /arte-episode-5" class="">
+				<div class="name"><span>EP</span> 5</div>
+                <div class="vien"></div>
+                <div class="cate">SUB</div>
+              </a></li><li><a href=" /arte-episode-4" class="">
+				<div class="name"><span>EP</span> 4</div>
+                <div class="vien"></div>
+                <div class="cate">SUB</div>
+              </a></li><li><a href=" /arte-episode-3" class="">
+				<div class="name"><span>EP</span> 3</div>
+                <div class="vien"></div>
+                <div class="cate">SUB</div>
+              </a></li><li><a href=" /arte-episode-2" class="">
+				<div class="name"><span>EP</span> 2</div>
+                <div class="vien"></div>
+                <div class="cate">SUB</div>
+              </a></li><li><a href=" /arte-episode-1" class="">
+				<div class="name"><span>EP</span> 1</div>
+                <div class="vien"></div>
+                <div class="cate">SUB</div>
+              </a></li></ul></div>
+                <div class="clr"></div>
+<script>
+  $(document).ready(function(){
+	  	var ep_start = $('#episode_page a.active').attr('ep_start');
+		var ep_end = $('#episode_page a.active').attr('ep_end');
+		var id = $("input#movie_id").val();
+		var default_ep = $("input#default_ep").val();
+        var alias = $("input#alias_anime").val();
+        var url = base_url_cdn_api + 'ajax/load-list-episode?ep_start='+ep_start+'&ep_end='+ep_end+'&id='+id+'&default_ep='+default_ep+'&alias='+alias;
+        $("#load_ep").load(url);
+  });
+</script>
+       </div>

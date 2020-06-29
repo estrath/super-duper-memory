@@ -1,57 +1,92 @@
-<div class="anime_video_body" style="padding: 0 20px 20px 20px;">
-                         <ul id="episode_page">
-                                                <li>
-                                <a href="#" class="active" ep_start="0" ep_end="9">12</a>
-                            </li>
-                                    </ul>
-                <div class="clr"></div>
-                <div id="load_ep"><ul id="episode_related"><li><a href=" /arte-episode-9" class="">
-				<div class="name"><span>EP</span> 9</div>
-                <div class="vien"></div>
-                <div class="cate">SUB</div>
-              </a></li><li><a href=" /arte-episode-8" class="">
-				<div class="name"><span>EP</span> 8</div>
-                <div class="vien"></div>
-                <div class="cate">SUB</div>
-              </a></li><li><a href=" /arte-episode-7" class="">
-				<div class="name"><span>EP</span> 7</div>
-                <div class="vien"></div>
-                <div class="cate">SUB</div>
-              </a></li><li><a href=" /arte-episode-6" class="">
-				<div class="name"><span>EP</span> 6</div>
-                <div class="vien"></div>
-                <div class="cate">SUB</div>
-              </a></li><li><a href=" /arte-episode-5" class="">
-				<div class="name"><span>EP</span> 5</div>
-                <div class="vien"></div>
-                <div class="cate">SUB</div>
-              </a></li><li><a href=" /arte-episode-4" class="">
-				<div class="name"><span>EP</span> 4</div>
-                <div class="vien"></div>
-                <div class="cate">SUB</div>
-              </a></li><li><a href=" /arte-episode-3" class="">
-				<div class="name"><span>EP</span> 3</div>
-                <div class="vien"></div>
-                <div class="cate">SUB</div>
-              </a></li><li><a href=" /arte-episode-2" class="">
-				<div class="name"><span>EP</span> 2</div>
-                <div class="vien"></div>
-                <div class="cate">SUB</div>
-              </a></li><li><a href=" /arte-episode-1" class="">
-				<div class="name"><span>EP</span> 1</div>
-                <div class="vien"></div>
-                <div class="cate">SUB</div>
-              </a></li></ul></div>
-                <div class="clr"></div>
-<script>
-  $(document).ready(function(){
-	  	var ep_start = $('#episode_page a.active').attr('ep_start');
-		var ep_end = $('#episode_page a.active').attr('ep_end');
-		var id = $("input#movie_id").val();
-		var default_ep = $("input#default_ep").val();
-        var alias = $("input#alias_anime").val();
-        var url = base_url_cdn_api + 'ajax/load-list-episode?ep_start='+ep_start+'&ep_end='+ep_end+'&id='+id+'&default_ep='+default_ep+'&alias='+alias;
-        $("#load_ep").load(url);
-  });
-</script>
-       </div>
+<div class="main_body_black">
+          <div class="anime_name anime_info">
+              <i class="icongec-anime_info i_pos"></i>
+              <div class="topview">
+                <div class="tab">
+                    <div class="tab_icon one1 active" onclick="loadTopViews(this, 1)">Day</div><div class="tab_icon one2" onclick="loadTopViews(this, 2)">Week</div><div class="tab_icon one3" onclick="loadTopViews(this, 3)">Month</div>
+                </div>
+              </div>
+          </div>
+          <div class="topview" id="load-anclytic">
+            <div class="clr"></div>
+            <div class="movies_show">
+                <div id="laoding" style="display: none;"><div class="loaders"></div></div>
+            	<div id="load_topivews" class="views1" style="display: block;"><ul>
+<li>
+    <a href="/category/pokemon-2019" title="Pokemon (2019)">
+        <p class="title"><span class="number">1. </span>Pokemon (2019)</p>
+        <p class="reaslead">Episode: 26</p>
+    </a>
+</li>
+ 
+<li>
+    <a href="/category/beyblade-burst-super-king" title="Beyblade Burst Super King	">
+        <p class="title"><span class="number">2. </span>Beyblade Burst Super King	</p>
+        <p class="reaslead">Episode: 14</p>
+    </a>
+</li>
+ 
+<li>
+    <a href="/category/black-clover-tv-dub" title="Black Clover (TV) (Dub)">
+        <p class="title"><span class="number">3. </span>Black Clover (TV) (Dub)</p>
+        <p class="reaslead">Episode: 127</p>
+    </a>
+</li>
+ 
+<li>
+    <a href="/category/gleipnir" title="Gleipnir">
+        <p class="title"><span class="number">4. </span>Gleipnir</p>
+        <p class="reaslead">Episode: 13</p>
+    </a>
+</li>
+ 
+<li>
+    <a href="/category/shachou-battle-no-jikan-desu" title="Shachou, Battle no Jikan Desu!">
+        <p class="title"><span class="number">5. </span>Shachou, Battle no Jikan Desu!</p>
+        <p class="reaslead">Episode: 12</p>
+    </a>
+</li>
+ 
+<li>
+    <a href="/category/digimon-adventure-2020" title="Digimon Adventure (2020)">
+        <p class="title"><span class="number">6. </span>Digimon Adventure (2020)</p>
+        <p class="reaslead">Episode: 4</p>
+    </a>
+</li>
+ 
+<li>
+    <a href="/category/one-piece" title="One Piece">
+        <p class="title"><span class="number">7. </span>One Piece</p>
+        <p class="reaslead">Episode: 930</p>
+    </a>
+</li>
+ 
+<li>
+    <a href="/category/kaguya-sama-wa-kokurasetai-tensai-tachi-no-renai-zunousen-2" title="Kaguya-sama wa Kokurasetai?: Tensai-tachi no Renai Zunousen 2">
+        <p class="title"><span class="number">8. </span>Kaguya-sama wa Kokurasetai?: Tensai-tachi no Renai Zunousen 2</p>
+        <p class="reaslead">Episode: 12</p>
+    </a>
+</li>
+ 
+<li>
+    <a href="/category/plunderer" title="Plunderer">
+        <p class="title"><span class="number">9. </span>Plunderer</p>
+        <p class="reaslead">Episode: 24</p>
+    </a>
+</li>
+ 
+<li>
+    <a href="/category/kami-no-tou" title="Kami no Tou">
+        <p class="title"><span class="number">10. </span>Kami no Tou</p>
+        <p class="reaslead">Episode: 13</p>
+    </a>
+</li>
+ 
+</ul> 
+</div>
+                <div id="load_topivews" class="views2" style="display: none;"></div>
+                <div id="load_topivews" class="views3" style="display: none;"></div>
+            </div>
+            <div class="clr"></div>
+        </div>
+     </div>

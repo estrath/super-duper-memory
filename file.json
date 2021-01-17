@@ -1,14 +1,16 @@
 {
-    "studentsinfo": [
+    "info": [
 
 
         
         {
-                "id": "113",
-                "name": "Mabell",
-                "email": "mabell@example.com",
-                "address": "House #33, ABC Lane, ABC CITY 06987",
-                "gender" : "female",
+                "marque": "Join our discord server from the slider below.",
+                "latestbuild": "v.1.3.5",
+                "Update": "27",
+                "OptionalUpdate": "34",
+                "showslider" : "yes",
+                "UpdateLink": "https://play.google.com/store/apps/details?id=com.traino.animestarr",
+                "VersionStat" : "none",
                 "phone": {
                     "mobile": "+1 1234567890",
                     "home": "00 123456",

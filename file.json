@@ -12,7 +12,7 @@
                 "UpdateLink": "https://play.google.com/store/apps/details?id=com.traino.animestar2",
                 "VersionStat" : "none",
                 "OptionalUpdateDialog" : "yes",
-                "GeneralLink" : "https://gogoanime.sh/",
+                "GeneralLink" : "https://.sh/",
                 "Changelogs" : "Update ver1.3.5 changelogs\n1-fixes syncing issues\n2-added ability to backup and restore data without syncing\n3-improved loading times overall
             \n4-fixes random freezes\n5-added few more settings and options\n6-fixes the issue not getting notifcations from subscribed animes\n7-fixes some aired animes crashes\n8- enhanced ocean theme colors\n9-video postion wont changes upon quality switching",
                 "phone": {

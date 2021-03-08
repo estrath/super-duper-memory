@@ -1,14 +1,15 @@
+Join our discord server from the slider below.
 {
     "info": [
 
 
         
         {
-                "marque": "Join our discord server from the slider below.",
+                "marque": "",
                 "latestbuild": "v.1.3.6",
                 "Update": "35",
                 "OptionalUpdate": "35",
-                "showslider" : "yes",
+                "showslider" : "no",
                 "UpdateLink": "https://play.google.com/store/apps/details?id=com.traino.animestar2",
                 "VersionStat" : "none",
                 "OptionalUpdateDialog" : "yes",

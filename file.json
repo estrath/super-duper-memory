@@ -13,9 +13,7 @@
                 "VersionStat" : "none",
                 "OptionalUpdateDialog" : "yes",
                 "GeneralLink" : "https://gogoanime.ai/",
-                "Changelogs" : "Update ver1.4.0 changelogs\n1-improved loading times when accessing libraries\n2-added ability to backup and restore data without syncing\n3-fixes the bug airing anime not showing episodes
-            \n4-fixes crashes after existing defaultplayer\n5-Alpha player has been removed\n6-added auto detect and switching to a working server\n7-added more servers\n8-ui changed\n9-added recap and missing episodes
-        \n9-added integrated downloader manager,please NOTE its BETA still and may contains some bugs\n\n\n-Todo list\n1-further enhance download manager-threaded download\n2-adding mal sync functionality\n3-improve the ui and themes visuals\n4-fixing lags in devices.",
+                "Changelogs" : "Update ver1.4.0 changelogs\n1-improved loading times when accessing libraries\n2-added ability to backup and restore data without syncing\n3-fixes the bug airing anime not showing episodes\n4-fixes crashes after existing defaultplayer\n5-Alpha player has been removed\n6-added auto detect and switching to a working server\n7-added more servers\n8-ui changed\n9-added recap and missing episodes\n9-added integrated downloader manager,please NOTE its BETA still and may contains some bugs\n\n\n-Todo list\n1-further enhance download manager-threaded download\n2-adding mal sync functionality\n3-improve the ui and themes visuals\n4-fixing some devices lag.",
                 "phone": {
                     "mobile": "+1 1234567890",
                     "home": "00 123456",

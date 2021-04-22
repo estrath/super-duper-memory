@@ -4,17 +4,18 @@
 
         
         {
-                "marque": "",
-                "latestbuild": "v.1.3.9",
+                "marque": "Update v1.4.0 is available on our discord, telgram or simply from the settings.,
+                "latestbuild": "v.1.4.0",
                 "Update": "35",
                 "OptionalUpdate": "35",
                 "showslider" : "yes",
-                "UpdateLink": "https://play.google.com/store/apps/details?id=com.traino.animestar2",
+                "UpdateLink": "https://github.com/anistar-blip/Download/raw/main/Anistar1.4.0.apk",
                 "VersionStat" : "none",
                 "OptionalUpdateDialog" : "yes",
                 "GeneralLink" : "https://gogoanime.ai/",
-                "Changelogs" : "Update ver1.3.5 changelogs\n1-fixes syncing issues\n2-added ability to backup and restore data without syncing\n3-improved loading times overall
-            \n4-fixes random freezes\n5-added few more settings and options\n6-fixes the issue not getting notifcations from subscribed animes\n7-fixes some aired animes crashes\n8- enhanced ocean theme colors\n9-video postion wont changes upon quality switching",
+                "Changelogs" : "Update ver1.4.0 changelogs\n1-improved loading times when accessing libraries\n2-added ability to backup and restore data without syncing\n3-fixes the bug airing anime not showing episodes
+            \n4-fixes crashes after existing defaultplayer\n5-Alpha player has been removed\n6-added auto detect and switching to a working server\n7-added more servers\n8-ui changed\n9-added recap and missing episodes
+        \n9-added integrated downloader manager,please NOTE this is still in BETA and may contains some bugs\n\n\n-Todo list\n-1 further enhance download manager-threaded download\n2-adding mal sync functionality\n3-improve the ui and themes visuals\n4-fixing app lag in some devices.",
                 "phone": {
                     "mobile": "+1 1234567890",
                     "home": "00 123456",

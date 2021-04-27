@@ -11,7 +11,7 @@
                 "showslider" : "yes",
                 "UpdateLink": "https://github.com/anistar-blip/Download/raw/main/Anistar1.4.0.apk",
                 "VersionStat" : "none",
-                "OptionalUpdateDialog" : "yes",
+                "OptionalUpdateDialog" : "no",
                 "GeneralLink" : "https://gogoanime.ai/",
                 "Changelogs" : "Update ver1.4.0 changelogs\n1-improved loading times when accessing libraries\n2-added ability to backup and restore data without syncing
             \n3-fixes the bug airing anime but not showing episodes\n4-fixes crashes after existing defaultplayer\n5-Alpha player has been removed

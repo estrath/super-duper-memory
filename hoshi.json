@@ -4,7 +4,9 @@
 
         
         {
-                "marque": "",
+                "adlovin": "yes",
+ 
+                 "marque": "",
                 "latestbuild": "v.1.4.1",
                 "Update": "35",
                 "OptionalUpdate": "40",

@@ -12,7 +12,7 @@
                 "UpdateLink": "https://github.com/anistar-blip/Download/raw/main/Anistar1.4.1.apk",
                 "VersionStat" : "none",
                 "OptionalUpdateDialog" : "no",
-                "GeneralLink" : "https://gogoanime.pe",
+                "GeneralLink" : "https://gogoanime.pe/",
                 "Changelogs" : "Update ver1.4.1 changelogs\n1-notifications delayed by 8 hours in order not to spam users\n2-fixed restore and backup for androids 10 and above\n3-fixes the bug showing airing anime completed\n4-more server fixes\n\n\nUpdate ver1.4.0 changelogs\n1-improved loading times when accessing libraries\n2-added ability to backup and restore data without syncing
             \n3-fixes the bug airing anime but not showing episodes\n4-fixes crashes after existing defaultplayer\n5-Alpha player has been removed
         \n6-added auto detect and switching to a working server\n7-added more servers\n8-ui changed\n9-added recap and missing episodes

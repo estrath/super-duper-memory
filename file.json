@@ -17,7 +17,7 @@
             \n3-fixes the bug airing anime but not showing episodes\n4-fixes crashes after existing defaultplayer\n5-Alpha player has been removed
         \n6-added auto detect and switching to a working server\n7-added more servers\n8-ui changed\n9-added recap and missing episodes
         \n10-added integrated downloader manager, please NOTE this is still in BETA and may contains some bugs\n\n\n-Todo list\n1-further enhance download manager-threaded download
-        \n2-adding mal sync functionality\n3-improve the ui and themes visuals\n4-fixing lags in some devices.\n\n\nUpdate ver1.4.2 changelogs\n1-fixed episodes not showing\n2-you can now subscribe to upcoming anime\n3-fixed recent episodes showing null\4-fixed and improved external player servers\5-fixed recent anime & airing anime\6-fixed the search functionality\7-removed the annoying big white screen bug for older phones\8-related anime is back\9-fixed crashes when opening download sheet\10-add isekai genre\11-fixed xeno,sumi,and dodo servers for both streaming and download",
+        \n2-adding mal sync functionality\n3-improve the ui and themes visuals\n4-fixing lags in some devices.\n\n\nUpdate ver1.4.2 changelogs\n1-fixed episodes not showing\n2-you can now subscribe to upcoming anime\n3-fixed recent episodes showing null\n4-fixed and improved external player servers\n5-fixed recent anime & airing anime\n6-fixed the search functionality\n7-removed the annoying big white screen bug for older phones\n8-related anime is back\n9-fixed crashes when opening download sheet\n10-add isekai genre\n11-fixed xeno,sumi,and dodo servers for both streaming and download",
                 "phone": {
                     "mobile": "+1 1234567890",
                     "home": "00 123456",

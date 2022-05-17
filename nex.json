@@ -4,9 +4,9 @@
 
         
         {
-                "marque": "-",
+                "marque": "NEX",
                 "latestbuild": "v.1.5.6",
-                "update": "56",
+                "update": "55",
                 "optionalUpdate": "54",
                 "update_text" : "Update Available!",
                 "updatelink": "https://play.google.com/store/apps/details?id=com.nex1.io",

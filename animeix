@@ -10,8 +10,8 @@
                 "optionalUpdate": "56",
                 "update_text" : "Update Available!",
                 "updatelink": "https://play.google.com/store/apps/details?id=com.nex1.io",
-                "add_mirrors": "no",
-                "enable_wt": "no",
+                "add_mirrors": "yes",
+                "enable_wt": "yes",
 
                 "changelogs" : "Update ver1.4.1 changelogs\n1-notifications delayed by 8 hours in order not to spam users\n2-fixed restore and backup for androids 10 and above\n3-fixes the bug showing airing anime completed\n4-more server fixes\n\n\nUpdate ver1.4.0 changelogs\n1-improved loading times when accessing libraries\n2-added ability to backup and restore data without syncing
             \n3-fixes the bug airing anime but not showing episodes\n4-fixes crashes after existing defaultplayer\n5-Alpha player has been removed
